@@ -1,0 +1,14 @@
+#set linenumbers
+set softwrap
+set constantshow
+#set nohelp
+bind ^Q exit main
+bind ^X cut main
+bind ^V paste main
+bind ^F whereis main
+bind ^H replace main
+bind ^Z undo main
+bind ^Y redo main
+bind ^C copy main
+#unbind ^G help all
+bind ^G gotoline main
